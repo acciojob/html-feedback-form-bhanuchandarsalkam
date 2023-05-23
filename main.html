@@ -8,6 +8,29 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+	<form action="" method="POST">
+	<h1>HTML Feedback Form</h1>
+	<div>
+		<label for="name">Name:</label><br>
+		<input type="text" name="name" id="name" minlength=3 maxlength=50>
+	</div>
+		<div>
+			<label for="portfolio">portfolio:</label><br>
+			<input type="url" name="portfolio" id="portfolio" minlength=3 maxlength=50>
+		</div>
+		<div>
+			<label for="favcolor">favcolor:</label>
+			<select name="favcolor" id="favcolor">
+				<option value="red">red</option><br>
+				<option value="green">green</option><br>
+			</select>		
+		</div>
+		<div>
+		<label for="likeness">likeness:</label>
+			<input type="range" name="likeness" id="likeness" min=10 max=100>
+		</div>
+		<input type="submit">
+	</form>
     <script type="text/javascript" src="./script.js">
 </script>
 
